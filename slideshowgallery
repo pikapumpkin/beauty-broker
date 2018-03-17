@@ -1,0 +1,11 @@
+#IDX-slideshowGallery-1965 {position:relative; -webkit-box-shadow: #777 1px 1px 10px; box-shadow: #777 1px 1px 10px; text-align:left;}
+#IDX-slideshowGallery-1965 a .idx-slideshowPhotoElement {border:none; visibility: hidden;}
+#IDX-slideshowGallery-1965 .IDX-slideshowCaption {height: 0px; border-radius: 20px 20px 0 0; -webkit-border-radius: 20px 20px 0 0; text-align: center;z-index:600; color:#ffffff; width:100%; position:absolute; left:0; bottom:0; overflow:hidden;}
+.IDX-clear {clear:both}
+#IDX-slideshowGallery-1965 a {float:left;position:absolute; left:0; top:0; opacity:0.0;}
+#IDX-slideshowGallery-1965 a.IDX-show {z-index:500; opacity:1.0}
+#IDX-slideshowGallery-1965 .IDX-slideshowCaption .IDX-slideshowContent {margin:5px;font-size: 11px; line-height:12px;}
+#IDX-slideshowGallery-1965 .IDX-slideshowCaption .IDX-slideshowContent h3 {margin:0;padding:0;color:#1DCCEF;}
+.IDX-slideshowBeds, .IDX-slideshowBaths, .IDX-slideshowRemarks, .IDX-slideshowDisclaimerLink, .IDX-slideshowStatus {display:none;}
+.IDX-slideshowStateAbrv {display:none;}
+.IDX-slideshowWrapper {z-index:0;}

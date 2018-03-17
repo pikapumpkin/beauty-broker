@@ -1,0 +1,38 @@
+#IDX-showcaseGallery-1964.IDX-showcaseTable { table-layout:fixed; border-spacing:8px; font-size:11px; }
+#IDX-showcaseGallery-1964 .IDX-showcaseRow { display:table-row; }
+#IDX-showcaseGallery-1964 .IDX-showcaseCell {
+    display:table-cell;
+}
+
+#IDX-showcaseGallery-1964 .IDX-showcaseLink {
+    height: 100%;
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+    display: inline-block;
+}
+#IDX-showcaseGallery-1964 .IDX-showcaseLink:before {
+    height: 100%;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+}
+#IDX-showcaseGallery-1964 .IDX-showcasePhoto {
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.IDX-showcaseCityStateZip span { white-space: pre; }
+#IDX-showcaseGallery-1964 .IDX-showcaseCell div {text-align: center;}
+#IDX-showcaseGallery-1964 .IDX-showcaseListingID,
+#IDX-showcaseGallery-1964 .IDX-showcaseBeds,
+#IDX-showcaseGallery-1964 .IDX-showcaseBaths,
+#IDX-showcaseGallery-1964 .IDX-showcaseFull,
+#IDX-showcaseGallery-1964 .IDX-showcasePartial,
+#IDX-showcaseGallery-1964 .IDX-showcaseRemarks,
+#IDX-showcaseGallery-1964 .IDX-showcaseDisclaimerLink,
+#IDX-showcaseGallery-1964 .IDX-showcaseStatus,
+#IDX-showcaseGallery-1964 .IDX-showcaseStateAbrv {display:none;}
+
+
+#IDX-showcaseGallery-1964 .IDX-showcaseContainer {position:relative;}

@@ -1,0 +1,43 @@
+a[label] {
+  color: red !important;
+}
+
+#IDX-main {
+  
+}
+
+#IDX-address {
+  width: 50% !important;
+}
+
+#IDX-addressWrap {
+  margin-left: 5px;
+}
+
+#IDX-navbar-collapse {
+
+}
+
+#IDX-action-buttons {
+  width: 50% !important;
+  align-items: center;
+}
+
+#IDX-searchRefinement {
+  color: white;
+  width: 250px;
+  background: grey;
+}
+
+#IDX-ccz-select {
+  color: white;
+  width: 250px;
+  background: grey;
+  padding: 0px;
+}
+
+.IDX-label-for-nojs {
+  padding: 10px;
+  align-items: left;
+  float: left;
+}

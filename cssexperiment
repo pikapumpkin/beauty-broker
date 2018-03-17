@@ -41,3 +41,69 @@ a[label] {
   align-items: left;
   float: left;
 }
+
+*/2/*
+
+#IDX-main {
+  width: 95%;
+  font-family: 'Playfair Display SC', serif;
+  font-family: 'Lato', sans-serif;
+  
+ }
+
+h1 {
+  color: red;
+  size: 25px;
+  font-family: 'Playfair Display SC', serif;
+}
+
+h2 {
+  color: yellow;
+  size: 18px;
+  font-family: 'Playfair Display SC', serif;
+}
+
+p {
+  color: black;
+  size: 15px;
+  font-family: 'Lato', sans-serif;
+}
+
+.idx-pageContainer {
+
+  
+}
+
+div .IDX-navbar-header .IDX-containter-navbar {
+
+  
+}
+
+span .IDX-icon-bar {
+
+  
+}
+
+#IDX-navbar-collapse {
+
+  
+}
+
+button {
+
+  
+}
+
+nav {
+
+  
+}
+
+input[type=text] {
+
+  
+}
+
+
+
+

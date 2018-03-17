@@ -1,0 +1,991 @@
+/* CSS loaded from cache: [client-27050] 80e2328c */
+
+/* Cached at 03/17/18 06:06:30 */
+/* idxMobileFirstBase - 1.000 */
+/* mobileFirst select2 */
+.IDX-wrapper-standard .select2-container {
+    width: 100%;
+    min-height: 40px;
+}
+.IDX-wrapper-standard .select2-container .select2-choice {
+    min-height: 35px;
+    color: #000;
+    background: #fff;
+    box-shadow: none;
+}
+.IDX-wrapper-standard .select2-container a.select2-choice, .IDX-wrapper-standard .select2-container a.select2-default {
+    min-height: 38px;
+}
+.IDX-wrapper-standard .select2-container .select2-choice.select2-default .select2-chosen {
+    color: #a9a9a9;
+}
+.IDX-wrapper-standard .select2-container .select2-choice .select2-chosen {
+    margin-top: 4px;
+}
+.IDX-wrapper-standard .select2-container .select2-choice abbr {
+    top: 13px;
+}
+.IDX-wrapper-standard .select2-container .select2-choice, .IDX-wrapper-standard .select2-container .select2-choice .select2-arrow {
+    border: 1px solid #aaa;
+    border-color: #ccc;
+    border-radius: 0;
+}
+.IDX-wrapper-standard .select2-container .select2-choice .select2-arrow {
+    width: 22px;
+    border: 0;
+    background: #fff;
+}
+.IDX-wrapper-standard .select2-container .select2-choice .select2-arrow b {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    width: 0;
+    margin-top: -25%;
+    border-top: 8px solid #000;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    background: 0 0;
+}
+.IDX-wrapper-standard .select2-container .select2-choice .select2-arrow b > span {
+    margin: 4px 0 0 6px;
+}
+.IDX-wrapper-standard .select2-container.select2-container-multi .select2-choices {
+    margin: 0;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.IDX-wrapper-standard .select2-container.select2-container-multi .select2-choices .select2-search-field {
+    width: 100%;
+    height: 38px;
+}
+.IDX-wrapper-standard .select2-container.select2-container-multi .select2-choices input {
+    width: 100%!important;
+    margin: 0;
+    border: 0;
+}
+.IDX-wrapper-standard .select2-container.select2-container-multi .select2-choices .select2-search-choice {
+    line-height: 18px;
+    padding: 5px 5px 5px 30px;
+    color: #fff;
+    border: none;
+    background: #3d6e99;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.IDX-wrapper-standard .select2-container .select2-dropdown-open .select2-choice .select2-arrow b {
+    width: 0;
+    height: 0;
+    border-top: none;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #000;
+    border-left: 8px solid transparent;
+    background: 0 0;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+    .IDX-wrapper-standard .select2-container .select2-choice .select2-arrow b {
+        width: 0;
+        height: 0;
+        background: 0 0;
+    }
+}
+.IDX-wrapper-standard .select2-container .select2-drop {
+    border-radius: 0!important;
+}
+.IDX-wrapper-standard .select2-container .select2-drop: not(.select2-drop-above) {
+    margin-top: -3px;
+}
+.IDX-wrapper-standard .select2-container .select2-drop .select2-results {
+    max-height: 300px;
+}
+.IDX-wrapper-standard .select2-container .select2-drop .select2-results li {
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+.IDX-wrapper-standard .select2-container .select2-search {
+    margin: 4px 0;
+}
+.IDX-wrapper-standard .select2-container .select2-search input, .IDX-wrapper-standard .select2-container .select2-search input:focus {
+    border: none;
+    background: #fff;
+    box-shadow: none;
+}
+.IDX-wrapper-standard .select2-container.select2-container-active .select2-choice {
+    border-color: #91acce;
+}
+.IDX-wrapper-standard .select2-container.select2-dropdown-open .select2-choice {
+    border-bottom-color: #ccc;
+}
+.IDX-wrapper-standard .select2-container .form-control {
+    padding: 0;
+    border: none;
+    box-shadow: none;
+}
+.IDX-wrapper-standard .select2-container a.select2-search-choice-close {
+    font-size: 150%;
+    top: 0;
+    display: inline-block;
+    float: right;
+    width: 25px;
+    height: 100%;
+    padding-top: 3px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border-radius: 12px;
+    background: 0 0;
+    background-image: none!important;
+}
+.IDX-wrapper-standard .select2-container a.select2-search-choice-close:before {
+    content: '×';
+}
+.IDX-wrapper-standard .select2-container a.select2-search-choice-close:hover {
+    text-decoration: none;
+}
+.IDX-wrapper-standard .select2-search-field {
+    width: 100%;
+}
+.IDX-wrapper-standard .select2-chosen, .IDX-wrapper-standard .select2-input.select2-default {
+    width: 100%!important;
+    height: 39px;
+}
+.IDX-wrapper-standard .select2-search-choice-close {
+    background: 0 0;
+}
+/* lead bar */
+
+#IDX-leadToolsBar {
+    height: 60px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #8bc650;
+}
+#IDX-leadToolsBar a {
+    text-decoration: underline;
+    color: #fff;
+}
+#IDX-leadLogOutLink, #IDX-leadInfo {
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+}
+#IDX-leadAccountLink {
+    float: none;
+    margin-top: 10px;
+}
+@media only screen and (min-width: 641px) {
+    /* select 2/
+    .IDX-wrapper-standard .IDX-wrapper-standard .select2-container {
+        width: 100%;
+    }
+    /* lead bar */
+    #IDX-leadToolsBar {
+        line-height: 30px;
+        height: 30px;
+        padding-top: 0;
+        text-align: inherit;
+        vertical-align: middle;
+    }
+    #IDX-leadInfo {
+        margin-left: 10px;
+    }
+    #IDX-leadLogOutLink {
+        display: inline-block;
+        float: left;
+        margin-left: 5px;
+    }
+    #IDX-leadAccountLink {
+        display: inline-block;
+        float: right;
+        margin-top: 0;
+        margin-right: 10px;
+    }
+}
+.IDX-clear {
+    clear: both;
+}
+/* Social Media Login Styles for Standard pages */
+#IDX-social-media-logins { margin: 20px 0; width: 300px; }
+#IDX-login-instructions { width: 300px; text-align: center; }
+.IDX-social-form { display: inline-block; margin-right: 12px; }
+.IDX-social-form button { height: 50px; width: 50px; border: none; background-repeat: no-repeat; border-radius: 50px; cursor: pointer; }
+.IDX-social-form button span { display:none; }
+#IDX-social-google button { background: url(//d1qfrurkpai25r.cloudfront.net/images/social/google.png); background-color: #db4437; }
+#IDX-social-facebook button { background: url(//d1qfrurkpai25r.cloudfront.net/images/social/facebook.png); background-color:#3b5998; }
+
+
+/* forms - 1.000 */
+.IDX-selectableList { background: #EEEEEE; border: 5px solid #EEEEEE; height: 100px; line-height: 6px; overflow: auto; width: 200px; text-align:left; position:relative;}
+.IDX-selectableListLabel { font-size: 12px; font-weight: normal; line-height: 12px; margin: 0; display:block; margin-bottom:2px;} 
+.IDX-selectableListLabel .IDX-selectableListCheckbox { line-height: 12px; margin: 0 3px 0 0; vertical-align: bottom; display:inline; }
+
+.IDX-control-group, #IDX-registration .IDX-control-group { display: inline-block; margin: 0 10px 10px 0; }
+
+/* registrationComp - 1.000 */
+    .IDX-errorIcon {
+        width: 15px;
+        height: 15px;
+        float: left;
+        background-image: url(//d1qfrurkpai25r.cloudfront.net/images/smallIconSprite.png);
+        background-position: -105px 119px;
+        cursor: move;
+        margin-right: 5px;
+    }
+
+    .IDX-wrapper-standard .IDX-form-control.IDX-errorField,
+    .IDX-errorField {
+        border: 2px solid #FF0000;
+    }
+
+    .IDX-errorMessage {
+        color: #FF0000;
+    }
+    .ui-dialog[aria-labelledby="ui-dialog-title-IDX-registration"] {
+        min-width: 100%;
+        box-sizing: border-box;
+        padding: 0 10px;
+    }
+
+    .ui-dialog[aria-labelledby="ui-dialog-title-IDX-registration"] * {
+        box-sizing: border-box;
+    }
+
+    .ui-dialog[aria-labelledby="ui-dialog-title-IDX-registration"] #IDX-registrationSignup .IDX-customRegistrationFields {
+        display: inline-block;
+        height: auto;
+    }
+
+    #IDX-registration .IDX-control-group {
+        width: 100%
+    }
+
+    #IDX-registration .IDX-btn {
+      display: inline-block;
+      margin-bottom: 0;
+      font-weight: normal;
+      text-align: center;
+      vertical-align: middle;
+      cursor: pointer;
+      background-image: none;
+      border: 1px solid transparent;
+    }
+
+
+    #IDX-registration .IDX-btn:hover {
+        background: #8B8B8B;
+    }
+
+    #IDX-registration .IDX-btn{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #IDX-registration .IDX-controls input[type="text"],
+    #IDX-registration .IDX-controls input[type="email"],
+    #IDX-registration .IDX-controls input[type="password"] {
+        box-sizing: border-box;
+        width: 100%
+    }
+
+    #IDX-registration .IDX-controls .IDX-radio-inline {
+        display: inline-block;
+    }
+
+    #IDX-registration .IDX-controls .IDX-yesOrNo-radio {
+        vertical-align: top;
+    }
+
+    #IDX-registration .IDX-btn-primary {
+        color: #fff;
+        background-color: #428bca;
+    }
+
+    #IDX-registration .IDX-btn-primary:hover {
+        color: #fff;
+        background-color: #3071a9;
+        border-color: #285e8e;
+    }
+
+    #IDX-FormActions {
+        display: inline-block;
+        width: 100%;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #IDX-leadLoginForgotPass a {
+        text-decoration: underline;
+    }
+
+    #IDX-toggleLogIn, #IDX-toggleSignUp {
+        text-decoration: underline;
+    }
+
+    #IDX-toggleLogIn:hover, #IDX-toggleSignUp:hover {
+    }
+
+
+    .IDX-signupLoginToggleWrap {
+        width: 100%;
+    }
+
+    .IDX-signupLoginToggleWrap a {
+        text-decoration: none;
+    }
+
+    #IDX-loginSignupToggle {
+        clear: both;
+    }
+
+    @media screen and (min-width: 600px) {
+
+        .ui-dialog[aria-labelledby="ui-dialog-title-IDX-registration"] {
+            min-width: 600px;
+        }
+
+       #IDX-registration .IDX-control-group {
+            width: 30%;
+            vertical-align: top;
+        }
+
+        #IDX-toggleLogIn, #IDX-toggleSignUp {
+            text-decoration: underline;
+            float: right;
+        }
+        #IDX-toggleLogIn:hover, #IDX-toggleSignUp:hover {
+
+        }
+        .IDX-signupLoginToggleWrap p{
+            display: inline-block;
+            width: 100%;
+            padding-right: 10px;
+            text-align: right;
+            float: left;
+            margin: 0;
+        }
+
+    }
+
+
+/* forms - 1.001 */
+.IDX-selectableList { background: #EEEEEE; border: 5px solid #EEEEEE; height: 100px; line-height: 6px; overflow: auto; width: 200px; text-align:left; position:relative;}
+.IDX-selectableListLabel { font-size: 12px; font-weight: normal; line-height: 12px; margin: 0; display:block; margin-bottom:2px;} 
+.IDX-selectableListLabel .IDX-selectableListCheckbox { line-height: 12px; margin: 0 3px 0 0; vertical-align: bottom; display:inline; }
+
+.IDX-control-group, #IDX-registration .IDX-control-group { display: inline-block; margin: 0 10px 10px 0; }
+
+/* searchTools - 1.002 */
+#IDX-searchRefinement {margin:10px 0;}
+.IDX-vtNotProvided {display:none;}
+.IDX-ohNotProvided {display:none;}
+.IDX-submitContainer { clear: both; }
+
+/* mobileFirstSearch - 1.003 */
+@charset "UTF-8";
+/* select2 */
+.IDX-wrapper-standard {
+  /* loading */
+  /* core fields */
+  /* advance fieldss */
+  /* general */
+  /* navigation */
+  /* reset search buttons */
+  /* advanced Fields */
+  /* Email update signup */ }
+  .IDX-wrapper-standard .select2-container {
+    width: 100%;
+    min-height: 40px;
+}
+
+.IDX-wrapper-standard .select2-container .select2-choice {
+    min-height: 35px;
+    box-shadow: none;
+    background-color: #fff;
+    background-image: none;
+    background: #fff;
+    color: #000;
+}
+
+.IDX-wrapper-standard .select2-container a.select2-choice, .IDX-wrapper-standard .select2-container a.select2-default {
+    min-height: 38px;
+}
+
+.IDX-wrapper-standard .select2-container .select2-choice.select2-default .select2-chosen {
+    color: #A9A9A9;
+}
+
+.IDX-wrapper-standard .select2-container .select2-choice .select2-chosen {
+    margin-top: 4px;
+}
+
+.IDX-wrapper-standard .select2-container .select2-choice abbr {
+    top: 13px;
+}
+
+.IDX-wrapper-standard .select2-container .select2-choice,
+.IDX-wrapper-standard .select2-container .select2-choice .select2-arrow {
+    border-radius: 0;
+    border: 1px solid #aaa;
+    border-color: #ccc;
+}
+
+.IDX-wrapper-standard .select2-container .select2-choice .select2-arrow {
+    background-color: #fff;
+    background-image: none;
+    border: 0;
+    background: #fff;
+    width: 22px;
+}
+
+.IDX-wrapper-standard .select2-container .select2-choice .select2-arrow b {
+    background: none;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    margin-top: -25%;
+    width: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #000;
+}
+.IDX-wrapper-standard .select2-container .select2-choice .select2-arrow b > span {
+    margin: 4px 0 0 6px;
+}
+
+.IDX-wrapper-standard .select2-container.select2-container-multi .select2-choices {
+    background: #fff;
+    border: 1px solid #CCCCCC;
+    margin: 0;
+}
+
+.IDX-wrapper-standard .select2-container.select2-container-multi .select2-choices .select2-search-field {
+    width: 100%;
+    height: 38px;
+}
+
+.IDX-wrapper-standard .select2-container.select2-container-multi .select2-choices input {
+    margin: 0;
+    border: 0px;
+    width: 100% !important;
+}
+
+.IDX-wrapper-standard .select2-container.select2-container-multi .select2-choices .select2-search-choice {
+    padding: 5px 5px 5px 30px;
+    background: #3D6E99;
+    color: #fff;
+    line-height: 18px;
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.IDX-wrapper-standard .select2-container .select2-dropdown-open .select2-choice .select2-arrow b {
+background: none;
+width: 0;
+height: 0;
+border-left: 8px solid transparent;
+border-right: 8px solid transparent;
+border-bottom: 8px solid #000;
+border-top: none;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 2dppx) {
+    .IDX-wrapper-standard .select2-container .select2-choice .select2-arrow b {
+        background: none;
+        width: 0;
+        height: 0;
+    }
+}
+
+.IDX-wrapper-standard .select2-container .select2-drop {
+    border-radius: 0 !important;
+}
+
+.IDX-wrapper-standard .select2-container .select2-drop:not(.select2-drop-above) {
+    margin-top: -3px;
+}
+
+.IDX-wrapper-standard .select2-container .select2-drop .select2-results {
+    max-height: 300px;
+}
+
+.IDX-wrapper-standard .select2-container .select2-drop .select2-results li {
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.IDX-wrapper-standard .select2-container .select2-search {
+    margin: 4px 0;
+}
+
+.IDX-wrapper-standard .select2-container .select2-search input,
+.IDX-wrapper-standard .select2-container .select2-search input:focus {
+    background-color: #fff;
+    background-image: none;
+    background: #fff;
+    box-shadow: none;
+    border: none;
+}
+.IDX-wrapper-standard .select2-container.select2-container-active .select2-choice {
+      border-color: #91acce;
+}
+
+.IDX-wrapper-standard .select2-container.select2-dropdown-open .select2-choice {
+    border-bottom-color: #ccc;
+}
+
+.IDX-wrapper-standard .select2-container .form-control {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+.IDX-wrapper-standard .select2-container a.select2-search-choice-close {
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    width: 25px;
+    font-size: 150%;
+    background-image: none !important;
+    height: 100%;
+    border-radius: 12px;
+    display: inline-block;
+    top: 0;
+    text-align: center;
+    padding-top: 3px;
+    background: transparent;
+}
+
+.IDX-wrapper-standard .select2-container a.select2-search-choice-close:before {
+    content: "×";
+}
+
+.IDX-wrapper-standard .select2-container a.select2-search-choice-close:hover {
+    text-decoration: none;
+}
+
+.IDX-wrapper-standard .IDX-errorField {
+    border: 2px solid #FF0000;
+}
+
+.IDX-wrapper-standard label.IDX-label-for-nojs {
+    display: none;
+}
+
+.IDX-wrapper-standard #IDX-formReset,
+.IDX-wrapper-standard #IDX-resetBtn,
+.IDX-wrapper-standard #IDX-formReset-bottom {
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.IDX-wrapper-standard .IDX-signupLoginToggleWrap {
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.IDX-wrapper-standard #IDX-loadingScreen {
+    display: none;
+    text-align: center;
+}
+
+.IDX-wrapper-standard #IDX-loadingScreen img {
+    display: block;
+    margin: 0 auto;
+  }
+
+.IDX-wrapper-standard .IDX-controls {
+    min-height: 40px;
+}
+
+.IDX-wrapper-standard .IDX-controls .IDX-input {
+    width: 100%;
+}
+
+.IDX-wrapper-standard .IDX-controls input[type=text], .IDX-wrapper-standard .IDX-controls input[type=number] {
+    padding: 5px;
+    width: 100%;
+    margin: 0;
+}
+
+.IDX-wrapper-standard #IDX-coreSearchFields {
+    padding: 5px 0;
+}
+
+.IDX-wrapper-standard .IDX-advancedPair {
+    margin-bottom: 15px;
+}
+
+.IDX-wrapper-standard #IDX-advancedFieldsModLeft {
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.IDX-wrapper-standard #IDX-advancedFieldsModRight {
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+}
+
+.IDX-wrapper-standard .IDX-advancedWrap .IDX-advancedText {
+    width: 100%;
+}
+
+.IDX-wrapper-standard .IDX-advancedWrap .IDX-radioLabel {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.IDX-wrapper-standard .IDX-advancedWrap select {
+    width: 100%;
+    -webkit-appearance: none !important;
+    -webkit-border-radius: 0px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 0.44444rem;
+    color: rgba(0, 0, 0, 0.75);
+    line-height: normal;
+    border-radius: 0;
+    min-height: 40px;
+}
+
+.IDX-wrapper-standard .IDX-advancedWrap select.radius {
+    border-radius: 3px;
+}
+
+.IDX-wrapper-standard .IDX-advancedWrap select:hover {
+    background-color: #f7f7f7;
+    border-color: #999999;
+}
+.IDX-wrapper-standard .IDX-advancedWrap select:disabled {
+    background-color: #dddddd;
+    cursor: default;
+}
+.IDX-wrapper-standard .IDX-row-content {
+    width: 100%;
+    display: inline-block;
+}
+
+.IDX-wrapper-standard .IDX-control-group {
+    width: 100%;
+    min-height: 35px;
+    margin: 0 0 20px 0;
+}
+
+.IDX-wrapper-standard .IDX-controls {
+    width: 100%;
+}
+
+.IDX-wrapper-standard .IDX-controls input {
+    height: 38px;
+}
+
+.IDX-wrapper-standard .IDX-controls .IDX-select {
+    width: 100%;
+    min-height: 40px;
+}
+
+.IDX-wrapper-standard #IDX-cczContainer,
+.IDX-wrapper-standard .IDX-wrapper-standard .IDX-cczList .IDX-cczSelect {
+    width: 100%;
+}
+
+.IDX-wrapper-standard .IDX-listAsRow .IDX-searchNavItem {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-color: #3A64B0;
+    border-bottom: 1px solid #fff;
+    padding: 0px;
+}
+
+.IDX-wrapper-standard .IDX-listAsRow .IDX-searchNavItem:hover {
+    background-color: #283C8D;
+}
+
+.IDX-wrapper-standard .IDX-searchNavItem a {
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    color: #fff;
+}
+
+.IDX-wrapper-standard .IDX-wrapper-standard .IDX-cczList select {
+    height: 200px;
+}
+
+.IDX-wrapper-standard #IDX-propStatus {
+    height: auto;
+}
+
+.IDX-wrapper-standard .IDX-controls input[type=text],
+.IDX-wrapper-standard .IDX-controls input[type=number],
+.IDX-wrapper-standard .IDX-controls #IDX-add {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.IDX-wrapper-standard .IDX-selectableList {
+    width: 100%;
+}
+
+.IDX-wrapper-standard .IDX-controls label {
+    height: 30px;
+}
+
+.IDX-wrapper-standard .IDX-selectableListLabel, .IDX-wrapper-standard .IDX-checkbox-inline {
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.IDX-wrapper-standard .IDX-selectableListLabel .IDX-selectableListCheckbox, .IDX-wrapper-standard .IDX-checkbox-inline input[type=checkbox] {
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.IDX-wrapper-standard .IDX-cczSelects {
+    width: 100%;
+}
+
+.IDX-wrapper-standard .IDX-bd-tb,
+.IDX-wrapper-standard .IDX-sqft-acres,
+.IDX-wrapper-standard .IDX-minPrice-maxPrice {
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+/* Avoid min/max pricing text from being cut off at smaller screen sizes. */
+@media only screen and (max-width: 424px) {
+    .IDX-wrapper-standard .IDX-minPrice-maxPrice {
+        width: 100%;
+    }
+}
+
+.IDX-wrapper-standard #IDX-action-buttons, .IDX-wrapper-standard #IDX-action-buttons-bottom {
+    clear: both;
+    bottom: 0;
+    padding: 5px 0;
+}
+
+.IDX-wrapper-standard #IDX-action-buttons button, .IDX-wrapper-standard #IDX-action-buttons-bottom button {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    border-radius: 0;
+}
+
+.IDX-wrapper-standard #IDX-advancedFieldsModLeft {
+    width: 100%;
+}
+
+.IDX-wrapper-standard #IDX-advancedFieldsModRight {
+    width: 100%;
+}
+
+.IDX-wrapper-standard .IDX-advancedPair {
+    margin-bottom: 5px;
+}
+
+.IDX-wrapper-standard .IDX-emailUpdateSignupText {
+    color: #31708F;
+    background: #D9EDF7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
+
+.IDX-wrapper-standard #IDX-registration {
+    overflow: visible;
+}
+
+.IDX-wrapper-standard #IDX-emailUpdateSignupStep2Container {
+    width: 100%;
+    display: inline-block;
+}
+
+.IDX-wrapper-standard #IDX-emailUpdateSignupStep2Container #IDX-email {
+      width: 100%;
+  }
+
+.IDX-wrapper-standard #IDX-emailUpdateSignupStep2Container #IDX-submitBtn,
+.IDX-wrapper-standard #IDX-emailUpdateSignupStep2Container #IDX-loginSubmit {
+      float: right;
+  }
+
+.IDX-wrapper-standard #IDX-emailUpdateSignupStep2Container #IDX-keepLoggedIn span {
+    padding-left: 20px;
+}
+
+.IDX-wrapper-standard #IDX-FormActions button {
+    width: 50%;
+    float: left;
+}
+
+.IDX-wrapper-standard .IDX-hide, .IDX-wrapper-standard .IDX-hidden {
+    display: none;
+}
+
+.IDX-wrapper-standard .IDX-half {
+    width: 50%;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 641px) {
+    .IDX-wrapper-standard .IDX-wrapper-standard .select2-container {
+        width: 100%;
+    }
+
+    .IDX-wrapper-standard #IDX-search-property-content .IDX-control-group:nth-of-type(odd),
+    .IDX-wrapper-standard #IDX-search-primary-content .IDX-control-group:nth-of-type(odd),
+    .IDX-wrapper-standard #IDX-search-additional-content .IDX-control-group:nth-of-type(odd) {
+        border-right: 1px solid #fff;
+    }
+
+    .IDX-wrapper-standard .IDX-control-group {
+        width: 50%;
+        display: inline-block;
+        float: left;
+        margin: 0 0 10px 0;
+        padding: 0 15px;
+    }
+    
+    .IDX-wrapper-standard #IDX-action-buttons {
+        position: relative;
+        text-align: center;
+    }
+    
+    .IDX-wrapper-standard #IDX-action-buttons button, .IDX-wrapper-standard #IDX-action-buttons-bottom button {
+        width: 50%;
+    }
+    
+    .IDX-wrapper-standard #IDX-advancedFieldsModLeft {
+        display: inline-block;
+        width: 50%;
+        padding: 0 15px;
+        float: left;
+    }
+
+    .IDX-wrapper-standard .IDX-advancedWrap input.IDX-advancedRange {
+        display: inline-block;
+        width: 45%;
+        padding: 0 15px;
+    }
+    
+    .IDX-wrapper-standard #IDX-advancedFieldsModRight {
+        display: inline-block;
+        width: 50%;
+        padding: 0 15px;
+        float: left;
+    }
+    
+    .IDX-wrapper-standard #IDX-emailUpdateSignupStep2Container .IDX-control-group {
+        width: 100%;
+    }
+    
+    .IDX-wrapper-standard #IDX-emailUpdateSignupStep2Container .IDX-customRegistrationFields {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        padding: 5px 0;
+    }
+    
+    .IDX-wrapper-standard #IDX-emailUpdateSignupStep2Container #IDX-keepLoggedIn,
+    .IDX-wrapper-standard #IDX-emailUpdateSignupStep2Container #IDX-leadLoginForgotPass {
+        display: inline-block;
+        width: 100%;
+        padding: 0 15px;
+    }
+    
+    .IDX-wrapper-standard #IDX-emailUpdateSignupStep2Container #IDX-keepLoggedIn #keepLoggedIn,
+    .IDX-wrapper-standard #IDX-emailUpdateSignupStep2Container #IDX-leadLoginForgotPass #keepLoggedIn {
+        height: 100%;
+    }
+}
+
+
+
+/**** Custom Template CSS ****/
+
+/**** Client CSS ****/
+/**
+ * Custom Global CSS
+ */ 
+#IDX-main {
+  width: 95%;
+  font-family: 'Playfair Display SC', serif;
+
+  
+}
+
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 25px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-color: #ff9c9c;
+
+  
+}
+
+
+h2 {
+  font-family: 'Playfair Display SC', serif;
+  text-transform: lowercase;
+  font-size: 18px;
+  font-color: #ffd5d5;
+
+  
+}
+
+#IDX_hvProvide {
+  font-family: 'Playfair Display', serif;
+  text-transform: none;
+  font-weight: 100;
+
+
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+  text-transform: none;
+  font-weight: 100;
+  color: #ff9c9c;
+  font-style: oblique;
+  
+}
+
+/**
+ * Custom Page CSS
+ */ 
+#IDX-main {
+  clear: both;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.IDX-wrapper-standard, .select-2
+
+div .IDX-navbar-header, .IDX-container-navbar {
+  clear: both;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+}

@@ -1,0 +1,102 @@
+#IDX-quicksearch-23299 { 
+
+display: inline-block;
+float: left;
+overflow: auto;
+padding: 10px;
+width: 450px;
+height: 325px;
+font-style: normal; 
+text-align: right;
+background-color: white;
+font-color: black !important;
+font-family: 'Playfair Display SC', serif;
+
+
+ }
+
+#IDX-quicksearch-23299 label { 
+padding: 5px;
+font-family: 'Playfair Display SC', serif;
+margin-bottom: 1em;
+}
+
+#IDX-qsIdxIDWrap-23299 {
+font-family: 'Playfair Display SC', serif;
+margin-bottom: 1em;
+}
+
+#IDX-quicksearch-23299 select { 
+font-family: 'Playfair Display SC', serif;
+margin-bottom: 1em;
+
+}
+
+.IDX-qsTextInput { 
+font-family: 'Playfair Display SC', serif;
+margin-bottom: 1em;
+
+}
+
+.IDX-qsFieldWrap { 
+padding: 5px 10px;
+text-align: right;
+font-family: 'Playfair Display SC', serif;
+margin-bottom: 1em;
+
+}
+
+#IDX-qsMinPriceLabel-23299 { 
+font-family: 'Playfair Display SC', serif;
+margin-bottom: 1em;
+
+ }
+
+#IDX-qsMaxPriceLabel-23299 {
+font-family: 'Playfair Display SC', serif;
+
+margin-bottom: 1em;
+}
+
+#IDX-qsMinBedLabel-23299 {
+font-family: 'Playfair Display SC', serif;
+margin-bottom: 1em;
+
+}
+
+#IDX-qsMinSqFtLabel-23299 { 
+font-family: 'Playfair Display SC', serif;
+
+margin-bottom: 1em;
+} 
+
+#IDX-qsMinBathLabel-23299 { 
+font-family: 'Playfair Display SC', serif;
+
+margin-bottom: 1em;
+ }
+
+#IDX-qsCityListLabel-23299 { 
+font-family: 'Playfair Display SC', serif;
+
+margin-bottom: 1em;
+ }
+
+
+/*OG*/
+
+ #IDX-quicksearch-1961 { border-radius: 10px; -webkit-border-radius: 10px; border: 1px solid #ccc; box-shadow: 1px 1px 5px #777; -webkit-box-shadow: 1px 1px 5px #777; }
+#IDX-quicksearch-1961 label { margin: 0 5px;}
+#IDX-qsIdxIDWrap-1961 { margin-top: 10px; }
+#IDX-quicksearch-1961 select { width: 100% }
+.IDX-qsTextInput { width: 120px }
+.IDX-qsFieldWrap { padding: 5px 10px; text-align: right; }
+#IDX-qsMinPriceLabel-1961 { float: left; }
+#IDX-qsMaxPriceLabel-1961 { float: left; }
+#IDX-qsMinBedLabel-1961 { float:left; }
+#IDX-qsMinSqFtLabel-1961 { float: left; } 
+#IDX-qsMinBathLabel-1961 { float: left; }
+#IDX-qsCityListLabel-1961 { float: left; }
+#IDX-qsIdxIDLabel-1961 { display: none; }
+#IDX-qsPtLabel-1961 { display: none; }
+#IDX-qsCityListLabel-1961 { display: none; }

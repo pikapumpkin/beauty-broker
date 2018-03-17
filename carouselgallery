@@ -1,0 +1,34 @@
+#IDX-carouselGallery-8116 { display: inline-block; font-size:11px; position: relative; }
+#IDX-carouselGallery-8116 .IDX-outerCarouselWrapper {overflow: hidden; }
+#IDX-carouselGallery-8116 .IDX-innerCarouselWrapper{ position: relative; overflow: hidden; }
+#IDX-carouselGallery-8116 .IDX-carouselCell{ display:none; border:1px solid #666;
+    -webkit-box-shadow: 1px 1px 3px rgba(22,22,22,.4); box-shadow: 1px 1px 3px rgba(22,22,22,.4);
+    padding:3px; vertical-align: top; box-sizing: content-box; -moz-box-sizing: content-box;}
+#IDX-carouselGallery-8116 .IDX-carouselLink { height: 100%; width: 100%; font-size: 0;
+    text-align: center; display: inline-block;}
+#IDX-carouselGallery-8116 .IDX-carouselLink:before { height: 100%; content: "";
+display: inline-block; vertical-align: middle; }
+#IDX-carouselGallery-8116 .IDX-carouselPhoto { max-width: 100%; max-height: 110px; display: inline-block;
+    vertical-align: middle; }
+#IDX-carouselGallery-8116 a.IDX-carouselArrow { display: block; position: absolute; background: #666;
+ width: 40px; text-decoration: none; text-align: center; height: 100%; top: 0; }
+#IDX-carouselGallery-8116 a.IDX-carouselPrevArrow { left: 0; }
+#IDX-carouselGallery-8116 a.IDX-carouselNextArrow { right: 0; }
+#IDX-carouselGallery-8116 a.IDX-carouselArrow, #IDX-carouselGallery-8116 a.IDX-carouselArrow:hover,
+#IDX-carouselGallery-8116 a.IDX-carouselArrow:visited { color: #fff; font-size: 20px; }
+#IDX-carouselGallery-8116 a.IDX-carouselPrevArrow { border-radius: 5px 0 0 5px; }
+#IDX-carouselGallery-8116 a.IDX-carouselNextArrow { border-radius: 0 5px 5px 0; }
+#IDX-carouselGallery-8116 a.IDX-carouselArrow span { display: block; position: absolute; width: 100%;
+    top: 50%; margin-top: -50%; }
+#IDX-carouselGallery-8116 .IDX-carouselCell div {text-align: center;}
+#IDX-carouselGallery-8116 .IDX-carouselListingID,
+#IDX-carouselGallery-8116 .IDX-carouselBeds,
+#IDX-carouselGallery-8116 .IDX-carouselBaths,
+#IDX-carouselGallery-8116 .IDX-carouselFull,
+#IDX-carouselGallery-8116 .IDX-carouselPartial,
+#IDX-carouselGallery-8116 .IDX-carouselRemarks,
+#IDX-carouselGallery-8116 .IDX-carouselDisclaimerLink,
+#IDX-carouselGallery-8116 .IDX-carouselStatus,
+#IDX-carouselGallery-8116 .IDX-carouselStateAbrv {display:none;}
+#IDX-carouselGallery-8116 .IDX-carouselContainer {position:relative;}
+#IDX-carouselGallery-8116 .IDX-showcaseCourtesy {display:block;}

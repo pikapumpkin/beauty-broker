@@ -1,0 +1,63 @@
+button#IDX-formSubmit {
+    color: black;
+    background-color: white;
+    width: 20% !important;
+    border: 1px solid black !important;
+    float: right !important;
+
+   
+
+}
+
+button#IDX-formReset {
+    color: black;
+    background-color: white;
+    width: 20% !important;
+    border: 1px solid black !important;
+    float: right !important;
+    margin-left: 10px !important;
+
+
+
+
+}
+
+div#IDX-action-buttons {
+
+
+}
+
+div#IDX-navbar-collapse {
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+    background-color: white !important;
+
+
+
+}
+
+a.IDX-searchNavLink {
+    color: black !important;
+    font-size: 15px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+
+
+div#IDX-searchPageWrapper {
+   
+
+}
+
+nav.IDX-navbar {
+    background-color: white !important;
+    border: none !important;
+
+
+}
